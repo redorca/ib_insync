@@ -33,6 +33,7 @@ from .order import (
     PercentChangeCondition, PriceCondition, StopLimitOrder, StopOrder,
     TimeCondition, Trade, VolumeCondition)
 from .ticker import Ticker
+from .tickerTypes import tickerTypes
 from .version import __version__, __version_info__
 from .wrapper import RequestError, Wrapper
 
@@ -59,7 +60,7 @@ __all__ = [
     'MarketOrder', 'Order', 'OrderComboLeg', 'OrderCondition', 'OrderState',
     'OrderStatus', 'PercentChangeCondition', 'PriceCondition',
     'StopLimitOrder', 'StopOrder', 'TimeCondition', 'Trade', 'VolumeCondition',
-    'Ticker', '__version__', '__version_info__', 'RequestError', 'Wrapper'
+    'Ticker', 'tickerTypes', '__version__', '__version_info__', 'RequestError', 'Wrapper'
 ]
 
 
