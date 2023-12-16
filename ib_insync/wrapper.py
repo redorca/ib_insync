@@ -1245,3 +1245,24 @@ class Wrapper:
                 ticker.time = self.lastTime
                 ticker.updateEvent.emit(ticker)
             self.ib.pendingTickersEvent.emit(self.pendingTickers)
+
+    def verifyMessageAPI(apiData):
+        '''
+        For parity with TwsApiC++:EWrapper.h
+        '''
+        pass
+    def verifyCompleted(isSuccessful, errorText):
+        '''
+        For parity with TwsApiC++:EWrapper.h
+        '''
+        pass
+    def displayGroupList(reqId, groups):
+        '''
+        For parity with TwsApiC++:EWrapper.h
+        '''
+        pass
+    def displayGroupUpdated(reqId, contractInfo):
+        '''
+        For parity with TwsApiC++:EWrapper.h
+        '''
+        pass
